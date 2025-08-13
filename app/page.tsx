@@ -235,25 +235,25 @@ export default function Portfolio() {
 
   const experiences = [
     {
-      year: "2024",
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovations Inc.",
+      year: "2022 - Actualidad",
+      title: "Analista Programador",
+      company: "Secretaria de Innovación, El Salvador",
       description:
-        "Led development of scalable web applications using modern technologies",
+        "Lideró el desarrollo de aplicaciones web escalables utilizando tecnologías modernas.",
     },
     {
-      year: "2022",
-      title: "Full Stack Developer",
-      company: "Digital Solutions Co.",
+      year: "2021 - 2022",
+      title: "Desarrollador Full Stack",
+      company: "Publisoft, El Salvador",
       description:
-        "Developed and maintained multiple client projects using React and Node.js",
+        "Desarrollé y mantuve múltiples proyectos de clientes utilizando React y Node.js",
     },
     {
-      year: "2020",
-      title: "Frontend Developer",
-      company: "StartUp Labs",
+      year: "2019 - 2021",
+      title: "Front-end Developer & Team Leader Developer ",
+      company: "Shift & Control, El Salvador",
       description:
-        "Created responsive user interfaces and improved user experience",
+        "Creé interfaces de usuario responsivas, mejoré la experiencia del usuario y estuve encargado en resolver y analizar diferentes problemas técnicos.",
     },
   ];
 
@@ -574,13 +574,14 @@ export default function Portfolio() {
                 <div className="flex flex-wrap gap-2">
                   {[
                     "React",
+                    "Vue",
                     "Next.js",
                     "Node.js",
                     "TypeScript",
                     "Python",
                     "PostgreSQL",
                     "MongoDB",
-                    "AWS",
+                    "Google Cloud",
                   ].map((tech) => (
                     <motion.span
                       key={tech}

@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "Alriveraev",
+    "email": "alejandro.riveraev@gmail.com"
+  },
+  "records": {
+    "CNAME": "tu-dominio-o-hostname.ejemplo.com"
+  },
+  "proxied": true
+}
