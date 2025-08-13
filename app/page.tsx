@@ -25,6 +25,7 @@ import {
 import { MobileMenu } from "@/components/mobile-menu";
 import { HamburgerButton } from "@/components/hamburger-button";
 import ContactForm from "@/components/ContactForm";
+import Link from "next/link";
 
 // Typing effect hook
 const useTypingEffect = (text: string, speed = 100) => {
@@ -381,9 +382,18 @@ export default function Portfolio() {
             transition={{ delay: 4 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
-              <Download className="mr-2 h-4 w-4" />
-              Descargar CV
+            <Button
+              asChild
+              className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+            >
+              <Link
+                href="https://www.linkedin.com/in/alejandro-rivera-65a243169/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Download className="mr-2 h-4 w-4" />
+                LinkedIn
+              </Link>
             </Button>
             <Button
               variant="outline"
